@@ -1,0 +1,48 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-main {
+    max-width: 1488px;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.content-text {
+    font-style: italic;
+    font-size: 1.15em;
+}
+
+.content-link {
+    text-decoration: none;
+    color: #d4ab6c;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.content-link:hover {
+    color: #f8deb7;
+}
+
+.content-info {
+    text-align: center;
+    margin: auto;
+}
+
+.content-logo {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+hr {
+    border: 3px solid #d4ab6c;
+}
+
+@media only screen and (max-width: 800px) {
+    .content-main {
+        width: 90%;
+    }
+}

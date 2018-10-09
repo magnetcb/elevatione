@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Venus Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|EB+Garamond" rel="stylesheet">
+    <style type="text/css">
+        .body-wrapper {
+            width: 80%;
+            margin: 15px auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .wrapper {
+            margin: auto;
+            width: 80%;
+        }
+
+        .sub-header {
+            font-weight: 600; 
+            line-height: 1.2; 
+            font-size: 1.25em;
+        }
+
+        .flex-direction-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-direction-row {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .company-logos {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+        }
+
+        .little-spacer {
+            height: 10px;
+        }
+
+        .spacer {
+            height: 25px;
+        }
+
+        .border {
+            border: 1px solid black;
+        }
+
+        .flex-2 {
+            flex: 2;
+        }
+        .flex-3 {
+            flex: 3;
+        }
+        .flex-4 {
+            flex: 4;
+        }
+
+        .head-line {
+            flex: 4;
+        }
+        .cta {
+            flex: 2;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        a.button-book-now {
+            display: inline-block;
+            padding: 10px 10%;
+            border-radius: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 1.75em;
+            text-align: center;
+            transition: all 0.2s;
+            cursor: pointer;
+            font-family: 'EB Garamond', serif;
+        }
+        a.button-primary {
+            background-color: rgb(218, 171, 61);
+            color: black;
+        }
+        a.button-primary:hover {
+            background-color: black;
+            color: rgb(218, 171, 61);
+        }
+        a.button-secondary {
+            background-color: black;
+            color: rgb(218, 171, 61);
+        }
+        a.button-secondary:hover {
+            background-color: rgb(218, 171, 61);
+            color: black;
+        }
+
+        .button-div {
+            text-align: center; 
+            margin: auto; 
+            width: 30%;
+        }
+
+        @media all and (max-width: 800px){
+            body {
+                width: 100%;
+                margin-top: 0px;
+            }
+
+            .sub-header {
+                text-align: center;
+            }
+
+            .flex-direction-row {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .button-div {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="body-wrapper">
+        <header>
+            <img src="./images/header-image.png" width="100%" alt="">
+        </header>
+        <div class="little-spacer"></div>
+        <div class="wrapper">
+            <div class="flex-direction-column">
+                <div class="flex-direction-row align-items-center">
+                    <div class="flex-direction-column flex-4">
+                        <p class="sub-header">A new, non-surgical skin resurfacing treatment now at ÉlévationeTM Time Stops by Salvador Dali in Mayfair!</p>
+                        <div class="little-spacer"></div>
+                    </div>
+                    <div class="flex-direction-column flex-2">
+                        <a href="#" class="button-primary button-book-now">BOOK NOW</a>    
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="flex-direction-row">
+                    <div class="flex-direction-column flex-3">
+                        <p style="padding: 10px; line-height: 1.5;">
+                            Venus Versa treatment is the latest innovation in skin treatments, providing you with the results you’ve always been looking for!
+                            <br><br>
+                            NanoFractional Radio Frequency (RF) and SmartScan™ technology are used to help you get smoother, healthier skin by repairing skin damage including scars, enlarged pores, wrinkles, pigmentation, and any other skin conditions that affect the texture of your skin!
+                        </p>    
+                    </div>
+                    <div class="flex-direction-column flex-3">
+                        <p style="font-weight: 600; padding: 10px; line-height: 1.25;">
+                            Come celebrate the new opening of London’s brand new boutique in luxury Mayfair and book your Venus Versa Skin resurfacing treatment at an exclusive promotion price for a full face treatment!
+                            <br><br>
+                            only <span style="font-size: 4em; padding-left: 5px;">£149</span>
+                            <br>
+                            <img style="max-width: 200px; padding-left: 30px;" src="./images/brush.png" width="100%" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="flex-direction-row">
+                    <div class="flex-3" style="text-align: center;">
+                        <div class="little-spacer"></div>
+                        <img src="./images/venus2.png" width="100%" alt="">
+                    </div>
+                    <div class="flex-3" style="text-align: center;">
+                        <div class="little-spacer"></div>
+                        <img src="./images/venus3.png" width="70%" alt="">
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="company-logos align-items-center">
+                    <div class="flex-3" style="text-align: right;">
+                        <img style="max-width:309px; padding: 15px;" src="./images/venus_logo.png" width="50%" alt="">
+                    </div>
+                    <div class="flex-3" style="text-align: left;">
+                        <img style="max-width:215px; padding: 15px;" src="./images/elevatione.png" width="50%" alt="">
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="flex-direction-row">
+                    <div class="flex-direction-column button-div">
+                        <div class="little-spacer"></div>
+                        <a class="button-secondary button-book-now">BOOK NOW</a>
+                        <div class="little-spacer"></div>
+                    </td>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

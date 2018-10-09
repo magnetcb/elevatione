@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|EB+Garamond" rel="stylesheet">
+    <title>Meso Landing Page</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <style type="text/css">
+        .body-wrapper {
+            width: 80%;
+            margin: 10px auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .wrapper {
+            margin: auto;
+            width: 80%;
+        }
+
+        .sub-header {
+            font-weight: 600; 
+            line-height: 1.2; 
+            font-size: 1.25em;
+        }
+
+        .flex-direction-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-direction-row {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+        }
+
+        .little-spacer {
+            height: 10px;
+        }
+
+        .spacer {
+            height: 25px;
+        }
+
+        .border {
+            border: 1px solid black;
+        }
+
+        .flex-2 {
+            flex: 2;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        a.button-book-now {
+            display: inline-block;
+            padding: 10px 10%;
+            border-radius: 10px;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-size: 1.75em;
+            text-align: center;
+            transition: all 0.2s;
+            cursor: pointer;
+            font-family: 'EB Garamond', serif;
+        }
+        a.button-primary {
+            background-color: rgb(218, 171, 61);
+            color: black;
+        }
+        a.button-primary:hover {
+            background-color: black;
+            color: rgb(218, 171, 61);
+        }
+        a.button-secondary {
+            background-color: black;
+            color: rgb(218, 171, 61);
+        }
+        a.button-secondary:hover {
+            background-color: rgb(218, 171, 61);
+            color: black;
+        }
+
+        .button-div {
+            text-align: center; 
+            margin: auto; 
+            width: 30%;
+        }
+
+        .read-more {
+            text-decoration: none;
+            color: rgb(218, 171, 61);
+            font-weight: bold;
+        }
+
+        @media all and (max-width: 800px){
+            body {
+                width: 100%;
+                margin-top: 0px;
+            }
+
+            .sub-header {
+                text-align: center;
+            }
+
+            .flex-direction-row {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .button-div {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="body-wrapper">
+        <header>
+            <img src="./images/header-image.png" width="100%" alt="">
+        </header>
+        <div class="little-spacer"></div>
+        <div class="wrapper">
+            <div class="flex-direction-column">
+                <div class="flex-direction-row">
+                    <div class="flex-direction-column flex-2">
+                        <div class="little-spacer"></div>
+                        <p class="sub-header">
+                            New Non-invasive Mesotherapy and Ultrasound Anti-aging Treatment!
+                            <br><br>
+                            <span style="font-size: 64px;">Only £25!</span>
+                            <br>
+                            <img src="./images/brush.png" width="60%" alt="">
+                        </p>
+                        <div class="text-center">
+                            <a href="#" class="button-primary button-book-now">BOOK NOW</a>
+                        </div>
+                        <div class="little-spacer"></div>
+                    </div>
+                    <div class="flex-direction-column flex-2">
+                        <div class="little-spacer"></div>
+                        <p style="line-height: 1.5;">
+                            If you are battling fine lines and wrinkles, saggy skin, puffy eyes, open pores or pigmentation issues, head to Élévatione™ Time Stops on Brooks Street for our new, premium anti-aging treatment. 
+                            <br><br>
+                            EM Mesotherapy with ultrasound waves will leave your skin feeling smooth and looking youthful. The treatment increases collagen production, stimulates tissue growth, and promotes skin healing.
+                        </p> 
+                    </div>
+                </div>
+                <div class="flex-direction-row">
+                    <div class="flex-2" style="text-align: right;">
+                        <div class="little-spacer"></div>
+                        <img src="./images/meso2.png" width="100%" alt="">
+                    </div>
+                    <div class="flex-2" style="text-align: left;">
+                        <div class="little-spacer"></div>
+                        <img src="./images/meso3.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="flex-direction-row">
+                    <div class="flex-direction-column flex-2">
+                        <p style="font-size: 1.15em;">
+                            Pamper yourself with a full face EM Mesotherapy and Ultrasound Waves Treatment combined with Élévatione Art of Cosmetics premium products for £150 £25.
+                            <br><br>
+                            <a href="#" class="read-more">Read more</a>
+                        </p>
+                    </div>
+                    <div class="flex-direction-column flex-2">
+                    </div>
+                </div>
+                <div class="flex-direction-row">
+                    <div class="flex-direction-column">
+                        <p style="font-size: 12px; line-height: 2;">
+                            Needleless Mesotherapy uses a device that emits electromagnetic waves or currents creating transitional, temporary pores at the cellular level through which the applied serums then pass into the dermis. This is called electroporation. Additionally, the micro-current awakens and boosts collagen production and improves skin's healing. The Ultrasound handle emits a mechanical vibration of 300 million times per second for the intensive massage of skin cells, resulting in a significant improvement of cell metabolism and blood circulation, as well as promoting the absorption of nutrients.
+                            <br><br>
+                            Our Needleless Mesotherapy and US treatment is 100% safe and painless, and is done in a relaxed, luxurious spa environment.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-direction-row">
+                    <div class="flex-direction-column button-div">
+                        <div class="little-spacer"></div>
+                        <a class="button-secondary button-book-now">BOOK NOW</a>
+                        <div class="little-spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
